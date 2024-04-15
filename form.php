@@ -53,18 +53,4 @@ else{
     die(); 
 }
 
-
-$servername = "localhost";
-$database = "databasename";
-$username = "username";
-$password = "password";
-// Crea la conexión
-$conn = mysqli_connect($servername, $username, $password, $database);
-// Verifica la conexión
-if (!$conn) {
-    die("Conexión Fallida: " . mysqli_connect_error());
-}
-echo "Conexión exitosa";
-mysqli_close($conn);
-
 ?>
